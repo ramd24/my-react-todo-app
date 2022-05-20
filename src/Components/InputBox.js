@@ -11,7 +11,7 @@ const InputBox = (props) => {
       };
     
     const handleKeyUpEvent = (event) => {
-        if (event.keyCode === KEY_RETURN) {
+      if (event.keyCode === KEY_RETURN) {
         props.addNewItem(event.target.value);
         setValue("");
      }

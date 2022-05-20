@@ -45,3 +45,17 @@ border-radius: 0;
 .add-todo {
 margin: 10px 0px;
 }
+
+.page-btn {
+  border: 0;
+  background: #333333;
+  color: #ffffff;
+  margin: 0 15px;
+}
+
+.page-controller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
